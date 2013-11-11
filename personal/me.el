@@ -25,3 +25,10 @@
 
 (setq prelude-guru nil)
 ;;; me.el ends here
+(add-to-list 'auto-mode-alist '("\.groovy$" . groovy-mode))
+(add-to-list 'auto-mode-alist '("\.gradle$" . groovy-mode))
+
+(add-to-list 'interpreter-mode-alist '("groovy" . groovy-mode))
+(add-to-list 'interpreter-mode-alist '("gradle" . groovy-mode))
+
+(set-face-font 'default "-apple-Lekton-medium-normal-normal-*-12-*-*-*-p-0-iso10646-1")
