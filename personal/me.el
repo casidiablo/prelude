@@ -23,4 +23,5 @@
 
 (setq prelude-c-mode-common-hook 'my-c-mode)
 
+(setq prelude-guru nil)
 ;;; me.el ends here
