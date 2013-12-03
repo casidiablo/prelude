@@ -30,4 +30,4 @@
 (add-to-list 'interpreter-mode-alist '("groovy" . groovy-mode))
 (add-to-list 'interpreter-mode-alist '("gradle" . groovy-mode))
 
-(set-face-font 'default "-apple-Lekton-medium-normal-normal-*-12-*-*-*-p-0-iso10646-1")
+(set-default-font "Inconsolata 12")
